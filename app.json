@@ -1,0 +1,12 @@
+{
+    "name": "Video Grant Server",
+    "description": "A server that grants a video access token.",
+    "repository": "https://github.com/kunalvarma05/classroom-backend",
+    "logo": "http://1.bp.blogspot.com/-Jv6PvCS90wE/UN6l-VTx3wI/AAAAAAAAD6Q/Ndx8pNA3KaQ/s1600/black_linen-background_pattern.jpg",
+    "keywords": [
+        "node",
+        "express",
+        "heroku"
+    ],
+    "image": "heroku/nodejs"
+}
