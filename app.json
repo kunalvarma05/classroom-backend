@@ -8,5 +8,19 @@
         "express",
         "heroku"
     ],
-    "image": "heroku/nodejs"
+    "image": "heroku/nodejs",
+    "env": {
+        "TWILIO_ACCOUNT_SID": {
+            "description": "API username - find your account SID at https://www.twilio.com/user/account/voice-messaging",
+            "required": true
+        },
+        "TWILIO_API_KEY": {
+            "description": "API key - find your auth token at https://www.twilio.com/user/account/voice-messaging",
+            "required": true
+        },
+        "TWILIO_API_SECRET": {
+            "description": "API secret - find your auth token at https://www.twilio.com/user/account/voice-messaging",
+            "required": true
+        }
+    }
 }
