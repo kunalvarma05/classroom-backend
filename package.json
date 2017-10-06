@@ -4,6 +4,7 @@
   "description": "Video Access Token Service.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "NODE_ENV=test ./node_modules/.bin/jest"
   },
   "author": "Kunal Varma",
